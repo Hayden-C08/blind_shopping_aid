@@ -172,3 +172,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore uploaded media and audio
+/tmp/photo_uploads/
+*.mp3
+*.jpg
+*.jpeg
+*.png
+*.heic
+
+# Ignore model files
+*.keras
+*.h5
+*.pb
+
+
+
